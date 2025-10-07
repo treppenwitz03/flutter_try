@@ -3,9 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c",
-"assets/AssetManifest.bin.json": "69a99f98c8b1fb8111c5fb961769fcd8",
-"assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
+const RESOURCES = {"assets/AssetManifest.bin": "925fdbfc11b9fd209d3f2d6e5967892e",
+"assets/AssetManifest.bin.json": "5b46e45480b32b895740b4661e98d051",
+"assets/AssetManifest.json": "1c59f0f4dc5c3be86b93fa226aa7770a",
+"assets/assets/images/ephor.png": "ca676d73ce367b8bfb8e54fbf13664a1",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "928992fb2bab35cdc81b07624510bcf2",
 "assets/NOTICES": "2d9920ddb30eaf878dd6d18e47d4559f",
@@ -25,23 +26,19 @@ const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c
 "canvaskit/skwasm_heavy.wasm": "8034ad26ba2485dab2fd49bdd786837b",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "888483df48293866f9f41d3d9274a779",
-"flutter_bootstrap.js": "b3c2df23b66cb7b1a882ca46bda308ae",
+"flutter_bootstrap.js": "730e3773776d5297d1aa009890fa288d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "d29a19b0f416e02702d36efeba285854",
 "/": "d29a19b0f416e02702d36efeba285854",
-"main.dart.js": "649b88e5649d9d95b89d82d9392009e5",
-"main.dart.mjs": "ccdd0a932b7bf88306af86fcc25118c7",
-"main.dart.wasm": "aec9b6107d3aeac874b2c63f875e92a9",
+"main.dart.js": "6fbd9044e46b69c05a004c35a09f1793",
 "manifest.json": "3d4e684ab74e0433c55166739a7d2120",
 "version.json": "04e6b463e0c1210122b775c643a5a3a8"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
-"main.dart.wasm",
-"main.dart.mjs",
 "index.html",
 "flutter_bootstrap.js",
 "assets/AssetManifest.bin.json",
